@@ -7,7 +7,182 @@
 header{
   width: 100%;
   height: 100vh;
-  background: url(img/bromo1.jpg);
+  background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.2)), url(img/bromo1.jpg);
   background-position: center ;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  font-family: 'Popins', sans-serif;
+}
+
+nav{
+  width: 100%;
+  height: 100px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo{
+  font-size: 2em;
+  letter-spacing: 2px;
+}
+
+.menu a{
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+
+}
+
+.menu a:hover{
+  border: 1px solid indianred ;
+  background: transparent;
+}
+
+.register a{
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: indianred;
+  transition: 0.4s;
+}
+
+.register a:hover{
+  border: 1px solid indianred;
+  background-color: transparent;
+
+}
+.h-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 650px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+
+}
+
+.h-text span{
+  letter-spacing: 5px;
+
+}
+
+.h-text h1{
+  font-size: 3.5em;
+}
+
+.h-text a{
+  text-decoration: none;
+  background-color: indianred ;
+  padding: 10px 20px;
+  color: white;
+  letter-spacing: 5px;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+.h-text a:hover{
+  border: 1px solid indianred;
+  background-color: transparent;
+  
+}
+
+/* responsive */
+@media  screen and (max-width: 800px) {
+  .logo{
+    font-size:1.6em;
+    letter-spacing: 1px;
+  }
+  
+  .menu a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 15px;
+  
+  }
+
+  .register a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: indianred;
+    transition: 0.4s;
+  }
+
+  .h-text h1{
+    font-size: 2em;
+  }
+
+  .h-text span{
+    letter-spacing: 3px;
+  
+  }
+  
+  .h-text a{
+    text-decoration: none;
+    background-color: indianred ;
+    padding: 10px 15px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 5px;
+    border-radius: 8px;
+    transition: 0.4s;
+  }
+  
+  
+}
+
+@media screen and (max-width: 530px){
+  .logo{
+    font-size: 1em;
+    letter-spacing: 1px;
+  }
+  
+  .menu a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 10px;
+  
+  }
+
+  .register a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: indianred;
+    transition: 0.4s;
+  }
+
+  .h-text h1{
+    font-size: 1.2em;
+  }
+
+  .h-text span{
+    letter-spacing: 3px;
+  
+  }
+  
+  .h-text a{
+    text-decoration: none;
+    background-color: indianred ;
+    padding: 5px 15px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 5px;
+    border-radius: 8px;
+    transition: 0.4s;
+  }
+  
+  
 }
