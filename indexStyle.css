@@ -89,7 +89,6 @@ nav{
 .h-text a:hover{
   border: 1px solid indianred;
   background-color: transparent;
-  
 }
 
 /* responsive */
@@ -100,21 +99,14 @@ nav{
   }
   
   .menu a{
-    text-decoration: none;
-    color: white;
     padding: 5px 10px;
     font-size: 15px;
   
   }
 
   .register a{
-    text-decoration: none;
-    color: white;
     padding: 10px 15px;
     font-size: 15px;
-    border-radius: 8px;
-    background-color: indianred;
-    transition: 0.4s;
   }
 
   .h-text h1{
@@ -127,14 +119,8 @@ nav{
   }
   
   .h-text a{
-    text-decoration: none;
-    background-color: indianred ;
     padding: 10px 15px;
-    color: white;
     font-size: 15px;
-    letter-spacing: 5px;
-    border-radius: 8px;
-    transition: 0.4s;
   }
   
   
@@ -147,21 +133,13 @@ nav{
   }
   
   .menu a{
-    text-decoration: none;
-    color: white;
     padding: 5px 10px;
     font-size: 10px;
-  
   }
 
   .register a{
-    text-decoration: none;
-    color: white;
     padding: 5px 10px;
     font-size: 15px;
-    border-radius: 8px;
-    background-color: indianred;
-    transition: 0.4s;
   }
 
   .h-text h1{
@@ -174,15 +152,42 @@ nav{
   }
   
   .h-text a{
-    text-decoration: none;
-    background-color: indianred ;
+  
     padding: 5px 15px;
-    color: white;
     font-size: 15px;
-    letter-spacing: 5px;
-    border-radius: 8px;
-    transition: 0.4s;
   }
   
+  
+}
+
+@media screen and (max-width:376px ){
+  .logo{
+    font-size: 1em;
+    letter-spacing: 1px;
+  }
+  
+  .menu a{
+    padding: 3px 4px;
+    font-size: 10px;
+  }
+
+  .register a{
+    padding: 3px 4px;
+    font-size: 12px;
+  }
+
+  .h-text h1{
+    font-size: 1.2em;
+  }
+
+  .h-text span{
+    letter-spacing: 3px;
+  
+  }
+  
+  .h-text a{
+    padding: 5px 15px;
+    font-size: 15px;
+  }
   
 }
